@@ -1,0 +1,60 @@
+
+.chart-container {
+  width: 140%;
+  height: auto;
+  margin: 0 auto; 
+  overflow: hidden;
+  margin-left: -2rem;
+
+}
+
+  .chart-svg {
+    width: 100%;
+    height: auto;
+  }
+  
+  .scale-text {
+    fill: rgb(0, 0, 0);
+    font-size: 12px;
+  }
+  
+  .scale-text-white {
+    fill: rgb(0, 0, 0);
+    font-size: 12px;
+  }
+  
+  .time-labels {
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+    font-size: 12px;
+    margin-top: 8px;
+    padding: 0 30px;
+  } 
+
+  .temperature-chart h2 {
+    font-size: 1vw; 
+    text-align: center;
+    margin: 1rem 0;
+    color: #333; 
+    font-weight: bold;
+  }
+  
+  @media (max-width: 1024px) {
+    .temperature-chart h2 {
+      font-size: 2vw;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .temperature-chart h2 {
+      font-size: 3vw; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .temperature-chart h2 {
+      font-size: 4vw; 
+    }
+  }
+  

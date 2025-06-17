@@ -1,0 +1,16 @@
+.day-night-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.day-night-image {
+  position: absolute;
+  top: -16%;
+  width: 262px;
+  height: 262px;
+  border-radius: 50%;
+  transition: transform 1s linear;
+}
