@@ -1,4 +1,5 @@
 # Swedish Weather App
+Project together with Elias Hasselgren and Kristoffer Hansson.
 
 A React-based weather application that displays current conditions and forecasts for major Swedish cities.
 
